@@ -1,0 +1,33 @@
+
+.button{
+color: aliceblue;
+display: flex;
+flex-direction: row;
+padding: 8px;
+font-size: 15pt;
+text-decoration: none;
+}
+ .button:hover{
+  color: cadetblue;
+ }
+ .buttonSearch{
+  color: rgb(230, 235, 235);
+  display: contents;
+padding: 50%;
+font-size: 20pt;
+text-align: center;
+margin: 15%;
+padding-left:45% ;
+ }
+.hero {
+  background-image: url('../../assets/img/healthy.jpeg');
+  opacity: 0.60;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+.DivSearch{
+  display: grid;
+  grid-template-columns: repeat(3,33%);
+
+}
