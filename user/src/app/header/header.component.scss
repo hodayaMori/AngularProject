@@ -29,5 +29,23 @@ padding-left:45% ;
 .DivSearch{
   display: grid;
   grid-template-columns: repeat(3,33%);
+row-gap:2%;
+// margin-top: 5%;
+}
+.imgCart{
+width: 4%;
+float: right;
+}
+.imgdistans{
+  width: 3%;
+float: right;
+// margin-top: 5%;
+// margin-left: 8%;
+}
+.imgdistansAndimgCart{
 
 }
+// .map{
+//   width: 30%;
+//   height: 30%;
+// }

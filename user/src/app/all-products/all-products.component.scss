@@ -1,0 +1,27 @@
+.pProduct{
+    width: 90%;
+    height: 50%;
+    border: 2px white solid;
+border-radius: 3.5%;
+font-size: 15pt;
+text-align: center;
+// display: grid;
+// grid-template-columns: repeat(3,33%);
+margin: 3px;
+
+    }
+   .pProduct:hover{
+    color:cadetblue ;
+   }
+    .imgProduct{
+width:100%;
+border-radius: 4%;
+height: 65%;
+    }
+    .productPage{
+display: grid;
+grid-template-columns: repeat(3,30%);
+grid-template-rows: repeat(6,30%);
+margin-left: 8%;
+margin-top: 5%;
+    }

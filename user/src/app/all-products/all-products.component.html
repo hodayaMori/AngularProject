@@ -1,9 +1,15 @@
-<p>all-products works!</p>
-<div *ngFor="let item of arr">
-    <img [src]="item.src" />
-    <div>{{item.id}}</div>
-    <div>{{item.name}}</div>
-    <div>{{item.price}}</div>
-    <div>{{item.category}}</div>
+<!-- <p>all-products works!</p> -->
+<div class="productPage">
+    <div  *ngFor="let item of arr">
+   
+    <div class="pProduct"><img  class="imgProduct" 
+         [src]="item.src" /><br/>code:{{item.id}} <br/>{{item.name}}
+         <br/>price:{{item.price}}<br/>category:{{item.category}}<br/><br/>
+         <button style="background-color: aliceblue;box-shadow: 0px 0px 6px rgba(249, 247, 247, 0.6);width: 15%;margin: 2%;">הוסף
+        </button><button style="background-color:cadetblue ;box-shadow: 0px 0px 6px rgba(249, 247, 247, 0.6);">הסר</button></div>
+    <!-- <div></div>
+    <p></p>
+    <div></div> -->
 
+</div>
 </div>
